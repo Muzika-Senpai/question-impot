@@ -1,0 +1,238 @@
+
+                /*GENERIQUE*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+p {
+    color: #333;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+
+}
+
+
+                /*HEADER*/
+                
+header {
+    
+    background: url(../img/bg-landing.jpg)center top no-repeat;
+    background-size: auto 300px;;
+    background-color: #4e95bf;
+    padding-top: 20px;
+    color: white;
+    height: 250px;
+}
+
+header a {
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+
+}
+
+header nav {
+    
+    float: right;
+    margin-top: 20px;
+
+}
+
+header nav a{
+    
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 10px;
+    text-align: right;
+    
+}
+
+header p {
+ 
+     color: white;
+     margin-top: 10px;
+    
+}    
+
+h1 {
+    
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+    font-weight: 80;
+    margin-top: 30px;
+
+}
+
+.button {
+
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #6ec542;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    text-transform: none;
+
+}    
+
+                /*DES EXPERT POUR VOUS REPONDRE*/
+
+main {
+
+    text-align: center;
+
+}              
+
+
+h2 {
+    
+    font-size: 1em;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+article {
+    
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: 28%;
+    margin-left: 30px;
+    
+}
+
+article img {
+
+    height: 40px;
+    margin-bottom: 10px;
+
+}
+
+article h3 {
+
+    margin-bottom: 10px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+
+}
+
+article p {
+
+    font-size: small;
+    line-height: 14px;
+
+}
+
+
+
+                /*Form*/
+
+#formular {
+
+    height: 300px;
+    background-color: #f1f1f1;
+    padding: 50px;
+
+}
+
+form {
+
+    background-color: #f1f1f1;
+    padding-bottom: 30px;
+
+}
+
+label[for=formulaire] {
+
+    font-size: 1.5em;
+    color: #2e5c73;
+
+
+}
+
+textarea {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px
+}
+
+input {
+
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+}
+
+input[type=submit]{
+
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: #6ec542;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    text-transform: none;
+    width: fit-content;
+    border-style: none;
+    text-align: center;
+
+}
+
+                /*FOOTER*/
+
+footer {
+
+    color: white;    
+    height: 150px;
+    background-color: #484848;
+    padding-top: 50px
+}
+
+footer a {
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+
+}
+
+footer nav {
+
+    float: right;
+    margin-top: 15px;
+}
+
+footer nav a {
+
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-size: small;
+
+}
